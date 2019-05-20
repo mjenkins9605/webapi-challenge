@@ -28,13 +28,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    * Node.js uses JS
+    * Express is just a Node.js module like any other module
+
 - [ ] Describe Middleware?
+
+    * Middleware provide a way to extend the features provided by the Express framework.
 
 - [ ] Describe a Resource?
 
+    * A resource is anything in an API that can be managed by a set of endpoints. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    * A HTTP Status codes to let us know if a request was successful. 
+
 - [ ] How can we partition our application into sub-applications?
+
+    * Use routers and routes 
+
 
 ## Project Setup
 
