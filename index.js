@@ -1,3 +1,10 @@
+const server = require("./server.js");
+
+const port = process.env.PORT || 5678;
+server.listen(port, () => {
+  console.log(`Server listening on PORT: ${port}`);
+});
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
